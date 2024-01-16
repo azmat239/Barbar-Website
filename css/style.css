@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  height: 16vh;
+}
+.logo_img {
+  height: 60px;
+  width: 60px;
+  margin: 2rem 0 0 6rem;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: end;
+  gap: 2em;
+  margin-right: 5em;
+}
+a {
+  color: rgb(73, 73, 73);
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 1s;
+}
+
+.active,
+a:hover {
+  color: rgba(107, 106, 106, 0.479);
+}
+
+.Section {
+  display: flex;
+  gap: 10em;
+}
+
+.img-right {
+  margin-left: 2.4rem;
+}
+
+.imageTeam {
+  width: 100%;
+  height: 90vh;
+}
+
+.imageHero {
+  width: 45vw;
+  height: 110vh;
+  border-radius: 10px;
+}
+.text-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 8rem 0 8rem 6rem;
+}
+.top {
+  font-size: 1.8rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.about {
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.about-text {
+  margin-top: 0.5rem;
+  font-weight: bolder;
+}
+
+.btn {
+  margin: 2em 0;
+}
+.online-btn {
+  padding: 1.5rem 3.5rem;
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  transition: all 1s;
+  border: 2px solid black;
+}
+
+.online-btn:hover {
+  color: white;
+  background-color: black;
+}
+
+.book-btn {
+  padding: 1.5rem;
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  transition: all 1s;
+  border: none;
+}
+
+.book-btn:hover {
+  color: black;
+  background-color: aquamarine;
+  border: none;
+}
+
+.barber-lists {
+  width: 100%;
+  background-color: rgba(197, 166, 126, 0.953);
+  margin-top: 2px;
+  padding: 4rem 0;
+  color: white;
+}
+.barber-Headings {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.Barbar-cards {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0 2rem 10rem;
+}
+.card {
+  height: 60vh;
+  width: 20vw;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 1rem;
+  padding: 2rem;
+}
+.icons a,
+.rank {
+  color: rgba(255, 127, 80, 0.666);
+}
+
+#mark {
+  background-image: url("../images/barber1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -8rem;
+}
+
+#David {
+  background-image: url("../images/barber2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#lane {
+  background-image: url("../images/barber3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#rob {
+  background-image: url("../images/barber4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#Dan {
+  background-image: url("../images/barber5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#Atk {
+  background-image: url("../images/barber6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Services {
+  width: 100%;
+  height: 120vh;
+  background-image: url("../images/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+.serviceHeading {
+  width: 80%;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
+.servicePara {
+  width: 60%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.Pricing,
+.Books {
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bolder;
+  transition: all ease-in 0.3ms;
+}
+.Pricing {
+  background-color: white;
+  color: black;
+  border: none;
+}
+.Books {
+  padding: 1rem 3.5rem;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  margin-left: 1.5rem;
+}
+
+.Pricing:hover,
+.Books:hover {
+  background-color: darkcyan;
+}
+
+.Books:hover {
+  border-color: darkcyan;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact img {
+  width: 48%;
+  height: 110vh;
+}
+
+.formdiv {
+  background-color: rgb(31, 31, 31);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formdiv h1 {
+  margin-top: 4rem;
+  font-size: 4rem;
+}
+.contactForm {
+  margin-top: 2rem;
+}
+
+div input {
+  width: 35vw;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+div input:focus {
+  outline: none;
+}
+
+textarea {
+  width: 35vw;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.btn-c {
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: tan;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 1rem 13.4rem;
+  margin: 0.5rem 0;
+}
+
+.btn-c:hover {
+  background-color: rgba(50, 194, 238, 0.771);
+}
+.homeServices {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 6rem 0;
+}
+
+.ser_img {
+  height: 5rem;
+  width: 4rem;
+}
+
+.serv {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.serv h5 {
+  font-size: 1.5rem;
+}
+
+.serv button {
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  background-color: black;
+  color: azure;
+  font-size: 1rem;
+  border: none;
+}
+.serv button:hover {
+  background-color: rgba(0, 0, 0, 0.629);
+}
+.bg2 {
+  width: 100%;
+  height: 140vh;
+  margin: 2rem 0;
+  background-image: url("/images/bg2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ourTimings {
+  background-color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 4rem 1rem;
+  width: 40%;
+  height: 90vh;
+  text-align: center;
+  border-radius: 10px;
+}
+.timingHeading {
+  margin: 0 0 3rem;
+  color: lightsalmon;
+  font-size: 3rem;
+}
+.listTiming {
+  list-style-type: none;
+}
+.btnTime {
+  background-color: transparent;
+  color: black;
+  padding: 1.4rem 2.5rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+  border-color: black;
+  transition: all ease 0.5ms;
+}
+.btnTime:hover {
+  background-color: black;
+  color: white;
+}
+
+.listTiming li {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: rgba(28, 28, 28, 0.785);
+}
+.whychooseus {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.chooseHeading {
+  font-size: 3.5rem;
+}
+.choosepara {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.listchoose {
+  list-style-type: none;
+}
+.listchoose li:before {
+  content: "\2714\0020";
+}
+
+.listchoose li {
+  font-size: 1.2rem;
+  line-height: 2.5;
+}
+
+.ourPricing {
+  width: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 5rem;
+}
+.priceHeading {
+  text-align: center;
+  font-size: 4rem;
+}
+.priceList {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  margin-bottom: 10rem;
+}
+.priceCard {
+  height: 5vh;
+  width: 35vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px dotted gray;
+  padding: 2rem;
+}
+.price {
+  color: gray;
+}
+/*  */
+footer {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.footer-text {
+  color: rgb(206, 202, 202);
+  font-family: "Arial Narrow Bold", sans-serif;
+}
